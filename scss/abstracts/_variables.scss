@@ -1,0 +1,51 @@
+
+//new gridbreakpoing
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1280px,
+  xxl: 1420px,
+);
+
+
+$blue: #2f6fcf;
+$gray-200:#e1e1e1;
+$green: #43a047;
+$blue-5: #ebf2ff;
+
+$yellow-56: #fec120;
+
+$red: #f44336;
+
+
+
+
+
+//colors
+
+$primary: $blue;
+$secondary: $gray-200;
+$success: $green;
+$info: $blue-5;
+$warning: $yellow-56;
+ $danger: $red;
+// $light: $gray-100;
+// $dark: $gray-800;
+// $border-color-gray: $gray-80;
+// $border-color: $gray-88;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  // "light": $light,
+  // "dark": $dark,
+  // "error": $red,
+);
+
+

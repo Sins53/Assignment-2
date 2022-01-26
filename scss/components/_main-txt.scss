@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+  }
+  
+  .modifiedBullete::before{
+  content: "• ";
+  color: green;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  }
+  .secondtxt{
+  margin-top: 3.25rem;
+  }
+  .thirdtxt{
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  }
+  .fourthfifth{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  }
