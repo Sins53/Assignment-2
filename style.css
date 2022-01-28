@@ -9195,22 +9195,26 @@ a {
 .container-wrapper {
   width: 100%; }
 
-/* line 1, scss/components/_header.scss */
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 8rem; }
-  /* line 5, scss/components/_header.scss */
-  .header-list {
-    display: flex;
-    align-items: center; }
-  /* line 10, scss/components/_header.scss */
-  .header li {
-    margin-left: 1.5rem;
-    list-style-type: none; }
-  /* line 15, scss/components/_header.scss */
-  .header a {
-    font-size: 0.83313rem; }
+/* line 2, scss/components/_header.scss */
+.header li {
+  margin-left: 1.5rem; }
+
+/* line 5, scss/components/_header.scss */
+.header ul {
+  margin-left: 18.25rem; }
+
+/* line 8, scss/components/_header.scss */
+.header a {
+  font-size: 0.83313rem; }
+
+/* line 12, scss/components/_header.scss */
+.header .btn-first {
+  color: green; }
+
+/* line 15, scss/components/_header.scss */
+.header .btn-second {
+  color: white;
+  background-color: green; }
 
 /* line 1, scss/components/_aboutUs.scss */
 .aboutUs {

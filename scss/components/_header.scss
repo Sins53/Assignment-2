@@ -1,18 +1,20 @@
 .header{
-  display: flex;  
-  justify-content: space-between;
-  padding: 1rem 8rem;
-  &-list{
-  display: flex;
-  align-items: center;
-  
-}
-li{
+  li{
   margin-left: 1.5rem;
-  list-style-type: none;
-
+}
+ul{
+  margin-left: 18.25rem;
 }
 a{
   @include rfs(13.33px)
+}
+.btn{
+  &-first{
+    color: green;
+  }
+  &-second{
+    color: white;
+    background-color: green;
+  }
 }
 }
