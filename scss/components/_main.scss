@@ -1,0 +1,22 @@
+.main{
+  ul {
+    list-style: none;
+    }
+    
+    .modifiedBullete::before{
+    content: "• ";
+    color: green;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    }
+    &-txt2{
+      margin-top: 3.375rem;
+    }
+    &-txt4n5{
+      margin-top: 1rem;
+    }
+
+}

@@ -1,9 +1,17 @@
 .product{
-    background-image: url("./assets/images/product.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 10.75rem;
-    padding-left: 12.5rem;
-    padding-bottom: 13rem;
-    color: white;
+    &-title1{
+        font-size: 2rem;
+    }
+    &-title2{
+        font-size: 3rem;
+        color: $product-tc;
+    }
+    &-content{
+        min-height: 35.5rem;   
+        vertical-align: middle; 
+    }
+    &-image{
+        width: 45.5rem;
+        height: 35.5rem;
+    }
 }
