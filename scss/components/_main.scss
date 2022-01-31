@@ -5,7 +5,7 @@
     
     .modifiedBullete::before{
     content: "• ";
-    color: green;
+    color: $green;
     font-weight: bold;
     display: inline-block; 
     width: 1em;

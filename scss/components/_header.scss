@@ -10,11 +10,11 @@
 }
 .btn{
   &-first{
-    color: green;
+    color: $green;
   }
   &-second{
-    color: white;
-    background-color: green;
+    color: $white;
+    background-color: $green;
   }
 }
 
